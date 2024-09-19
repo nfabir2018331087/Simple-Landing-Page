@@ -3,8 +3,8 @@ export default function Footer(){
         <div className="bg-black text-white px-4 md:px-12 lg:px-32">
             <div className='pt-10 font-montserrat flex flex-row justify-between items-center border-b border-gray-400'>
             <div className=' flex gap-2 justify-around pb-4'>
-                <img src="Valuetainment.svg" alt="none" className='h-16 w-16'/>
-                <h1 className='text-6xl font-bold'>VTMERCH</h1>
+                <img src="Valuetainment.svg" alt="none" className='size-12 md:size-16'/>
+                <h1 className='text-5xl md:text-6xl font-bold'>VTMERCH</h1>
             </div>
             </div>
             <div className="flex flex-col md:flex-row md:justify-between items-center gap-8 my-10">
@@ -47,8 +47,8 @@ export default function Footer(){
                 </div>
             </div>
             <div className="py-4 flex flex-col md:flex-row md:justify-between items-center">
-                <h1 className="font-inter">
-                © 2014 Valuetainment Store, All rights reserved
+                <h1 className="font-inter text-center mb-1">
+                © 2014 Valuetainment Store. All rights reserved.
                 </h1>
                 <div className="flex flex-row gap-1 mr-8 cursor-pointer">
                     <img src="visa 1.svg" alt="visa" />
